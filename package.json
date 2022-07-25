@@ -6,18 +6,8 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
-    "build-wasm": "wasm-pack build ../todos-rust/crates/todos-rust --release --target web"
+    "build-wasm": "wasm-pack build ./todos-rust/crates/todos-rust --release --target web"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tastejs/todomvc-app-template.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tastejs/todomvc-app-template/issues"
-  },
-  "homepage": "https://github.com/tastejs/todomvc-app-template#readme",
   "dependencies": {
     "todomvc-app-css": "^2.4.2",
     "todomvc-common": "^1.0.5"

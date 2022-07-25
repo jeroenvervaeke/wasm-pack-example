@@ -5,5 +5,5 @@ export default defineConfig({
   build: {
     minify: false
   },
-  plugins: [wasmPack(['../todos-rust/crates/todos-rust'])]
+  plugins: [wasmPack(['todos-rust/crates/todos-rust'])]
 });

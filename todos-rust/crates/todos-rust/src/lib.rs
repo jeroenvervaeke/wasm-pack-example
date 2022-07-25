@@ -27,7 +27,7 @@ struct ReduxStore {
 
 impl ReduxStore {
     fn do_greet(&self) {
-        alert("Hello from redux store!");
+        alert("Hello from redux store!!");
     }
 }
 
